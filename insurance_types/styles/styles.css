@@ -1,0 +1,65 @@
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	top: 60px;
+}
+
+section > div{
+	background-color: #5F9C68;
+	display: inline;
+	border: solid 2px black;
+	padding: 30px;
+	margin: 30px;
+	width: 550px;
+}
+
+body{
+	background-color: #74C35A;
+	background-size: 100%;
+	color: ##3C2454;
+}
+
+.exception{
+	background-color: #EFEFEF;
+	height: 15px;
+	width: 15px;	
+}
+
+input ,textarea{
+	background-color: #EFEFEF;
+	height: 20px;
+	width: 250px;
+}
+
+#link{
+	text-align: center;
+}
+
+#link > h2 >a{
+	position: relative;
+	top: 60px;	
+}
+
+a{
+	text-decoration: none;
+}
+
+#link > h2{
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.confirmation{
+	border: 1px solid gold;	
+	background-color: red;
+}

@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-color: #74C35A;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 44px;
+}
+
+#content{
+    display: inline-block;
+    position: relative;
+    top:100px;
+    background-color: white;
+    width: 400px;
+    height: 420px;
+    padding: 0 auto;
+    text-align: center;
+}
+
+#content > input[type="text"], #content > input[type="Email"], #content > input[type="password"], textarea{
+    background-color: #F2F2F2;
+    width: 300px;
+    height: 30px;
+    font-size: 26px;
+}
+
+#mistakes{
+    color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    vertical-align: middle;
+}
+
+input[type="submit"], textarea{
+    background-color: #00B242;
+    width: 300px;
+    height: 50px;
+    font-size: 26px;
+}
+
+footer{
+    padding: 60px 0;
+}

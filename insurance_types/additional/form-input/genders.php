@@ -1,0 +1,3 @@
+<input type="radio" name="Gender" value="Male" class="exception" <?php if ($Gender == "Male") echo "checked" ?> ><label for="Male">Male</label>
+<input type="radio" name="Gender" value="Female" class="exception" <?php if ($Gender == "Female") echo "checked" ?>><label for="Female">Female</label>
+<input type="radio" name="Gender" value="Other" class="exception" <?php if ($Gender == "Other") echo "checked" ?>><label for="Other">Other</label>
